@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
 #include "include/string2.h"
+#include "include/number.h"
 
 int main()
 {

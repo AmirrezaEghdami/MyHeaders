@@ -21,7 +21,7 @@ int isAinB(char *a, char *b){
 	return 0;
 }
 
-int hideAfromB(char *a, char *b){
+void hideAfromB(char *a, char *b){
 	int counter = 0;
 	int aLength = strlen(a);
 	int bLength = strlen(b);
@@ -43,5 +43,4 @@ int hideAfromB(char *a, char *b){
 		}
 	}
 	printf("%s",newB);
-	return 0;
 }
