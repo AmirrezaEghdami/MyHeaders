@@ -44,3 +44,23 @@ void hideAfromB(char *a, char *b){
 	}
 	printf("%s",newB);
 }
+
+int hmt_isAinB(char *a, char *b){
+	int counter = 0;
+	int aLength = strlen(a);
+	int bLength = strlen(b);
+	int result = 0;
+	for (int i = 0; i < bLength; i++){
+		if (a[0+counter] == b[i]){
+			counter = counter + 1;
+			if (counter == aLength){
+				result++;
+				counter = 0;
+			}
+		}
+		else{
+			counter = 0;
+		}
+	}
+	return result;
+}
