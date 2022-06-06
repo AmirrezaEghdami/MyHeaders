@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "include/string2.h"
 #include "include/number.h"
 
