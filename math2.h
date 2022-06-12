@@ -2,7 +2,6 @@
 
 void fibonacci(int firstNnumbers){
     int x, y, z;
-	int firstNnumbers;
 	x = 0;
 	y = 1;
 	for (int i = 0; i < firstNnumbers; i++){
